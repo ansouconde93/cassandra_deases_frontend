@@ -1,0 +1,8 @@
+       
+  <p>
+      <input type="file" (change) ="selectedFile($event)">
+      <button
+          *ngIf="electFiles != undefined && uploadBnt==1" 
+          (click) = "uploadManiocImage()" style="cursor: pointer;">Upload
+      </button>
+  </p> 
